@@ -1,0 +1,14 @@
+framework module DTDMessagingUnity {
+    umbrella header "DTDMessagingUnity.h"
+    export *
+    module * { export * }
+
+    header "DTDEventsRouter.h"
+    header "UnityPushManager.h"
+}
+
+
+module DTDMessagingUnity.Swift {
+    header "DTDMessagingUnity-Swift.h"
+    requires objc
+}

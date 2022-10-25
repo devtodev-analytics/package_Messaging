@@ -1,0 +1,59 @@
+## [3.3.2] - 2022-10-21
+- Added an option for assigning a callback to receive a notification when the SDK initialization is complete. (Not available for WebGL platform)
+- In order to improve reliability, the amount of stored and transmitted data about game currencies/resources and user card parameters has been limited for all platforms.
+- Minor improvements and fixes, stability enhancement.
+- Fixed a bug that caused Duplicate class a.a found in modules on Android platform.
+## [3.3.1] - 2022-09-26
+- In order to improve reliability, the amount of stored and transmitted data about game currencies-/resources and user card parameters has been limited on Android platform.
+- Fixed a problem with SessionService on Android platform.
+- Fixed problems with SQLlite on Android platform.
+
+## [3.3.0] - 2022-09-02
+- Added A/B test functionality (Beta) for Android and IOS platforms.
+
+## [3.2.1] - 2022-08-26
+- Fixed a bug that caused android.os.DeadObjectException on Android.
+- Updated dependencies
+- Changed logic of working with the ‘Cheater’ mark, removed the GetCheater method
+- Added logic of working with the ‘Tester’ mark, added the SetTester method
+- Improved Android push notification performance, and fixed minor bugs
+- Fixed a bug that caused undefined symbol: $callbackPointer when enabling logs on WebGl
+
+## [3.2.0] - 2022-06-06
+- Added Unity WebGL support.
+- Fixed migration issues from previous SDK generation.
+- Fixed possible freezes when requesting IDFA permissions on some iOS versions.
+- Fixed issues receiving empty objects OnPushNotificationOpened and OnPushNotificationReceived.
+- Fixed possible crashes while initializing push notifications after clearing app data.
+- Fixed a rare bug that caused an AsyncOperationDispatcher to be saved to scene.
+- Fixed anti-cheat on Android platform
+- Fixed a potential error that can cause ANR when receiving an install referrer on Android platform
+- Fixed an error causing crash when working with double parameters in user cards on Windows standalone and WSA (UWP) platforms
+- Fixed an error causing the int type to get substituted with bool type when it equals to 0 or 1 on iOs/MacOs platforms
+- Fixed obfuscation rules that may cause conflicts with other frameworks on Android platform
+- The version of native dependencies .net framework was downgraded to 4.6.1 for the Windows standalone platform
+
+## [3.1.1] - 2022-04-11
+- Added new features: subscription payments monitoring and analytics
+- Added a new event - currentBalance
+- Push notification support on Android 12+
+- Minor improvements and fixes, stability enhancement
+- Improved lifecycle tracking on Android 12+
+- Referral data collection from Facebook
+- Please note that to collect referral data, you need to manually add the dependency '< androidPackage spec=“com.android.installreferrer:installreferrer:2.2” />'  into the file AppDependencies.xml
+- Warning: This package does not support WebGL. WebGL support will be added in the next releases
+
+## [3.0.2] - 2022-01-17
+- Increased SDK speed
+- Fixed an operation that caused the "AndroidJNIHelper.GetSignature: using Byte parameters is obsolete, use SByte parameters instead" warning
+- Fixed a bug that prevented debug logs disabling
+- Added asmdef files
+- Fixed conflicts with other plugins (Firebase, ARCore)
+- Сhanged the version of Newtonsoft json to 12.0.3.
+
+## [3.0.1] - 2021-12-23
+ - Android. Fixed data inheritance error when switching from SDK v2
+ - iOS: Added managing permission method to send push notifications
+
+## [3.0.0] - 2021-12-10
+ - This package does not support WebGL. WebGL support will be added in the next releases.
