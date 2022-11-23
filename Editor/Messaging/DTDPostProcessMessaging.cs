@@ -11,9 +11,10 @@ namespace DevToDev
     {
         private const string DEVICE = "ios-arm64_armv7";
         private const string SIMULATOR = "ios-arm64_i386_x86_64-simulator";
-        const string APP_TARGET_NAME = "Unity-iPhone";
+        private const string APP_TARGET_NAME = "Unity-iPhone";
         private const string UNITY_MESSAGING_NAME = "DTDMessagingUnity.framework";
-        
+        private const string PACKAGE_NAME = "com.devtodev.sdk.messaging";
+
         [PostProcessBuild(97)]
         public static void OnPostProcessBuild(BuildTarget target, string pathToBuiltProject)
         {
@@ -29,23 +30,32 @@ namespace DevToDev
                 var targetGuid = project.GetUnityFrameworkTargetGuid();
 #endif
                 project.AddFrameworkToProject(targetGuid, "UserNotifications.framework", true);
+                var frameworkAbsolutePath = PlayerSettings.iOS.sdkVersion == iOSSdkVersion.DeviceSDK
+                    ? Path.Combine("Plugins", "DevToDev", "Messaging", "IOS", DEVICE)
+                    : Path.Combine("Plugins", "DevToDev", "Messaging", "IOS", SIMULATOR);
+                frameworkAbsolutePath = Path.Combine(Application.dataPath, frameworkAbsolutePath, UNITY_MESSAGING_NAME);
+
+                if (!Directory.Exists(frameworkAbsolutePath))
+                {
+                    frameworkAbsolutePath = PlayerSettings.iOS.sdkVersion == iOSSdkVersion.DeviceSDK
+                        ? Path.Combine("Packages", PACKAGE_NAME, "Plugins", "Messaging", "IOS", DEVICE)
+                        : Path.Combine("Packages", PACKAGE_NAME, "Plugins", "Messaging", "IOS", SIMULATOR);
+                    frameworkAbsolutePath = Path.GetFullPath(Path.Combine(frameworkAbsolutePath, UNITY_MESSAGING_NAME));
+                }
+
                 AddMessagingFramework(pathToBuiltProject, project, targetGuid,
-                    PlayerSettings.iOS.sdkVersion == iOSSdkVersion.DeviceSDK
-                        ? Path.Combine("Plugins", "DevToDev", "Messaging", "IOS", DEVICE)
-                        : Path.Combine("Plugins", "DevToDev", "Messaging", "IOS", SIMULATOR));
+                    frameworkAbsolutePath);
                 project.AddBuildProperty(targetGuid, "OTHER_LDFLAGS", "-ObjC");
                 File.WriteAllText(projectPath, project.WriteToString());
             }
         }
 
         private static void AddMessagingFramework(string projectPath, PBXProject project, string targetGuid,
-            string frameworkFolderName)
+            string frameworkPath)
         {
             var destinationFrameworkFilePath = Path.Combine(projectPath, "Frameworks", UNITY_MESSAGING_NAME);
-            var editorFrameworkFilePath = Path.Combine(Application.dataPath,
-                frameworkFolderName, UNITY_MESSAGING_NAME);
             // Copy file
-            CopyAndReplaceDirectory(editorFrameworkFilePath, destinationFrameworkFilePath);
+            CopyAndReplaceDirectory(frameworkPath, destinationFrameworkFilePath);
             // Add declaration to .xcodeproj.
             var fileInBuild =
                 project.AddFile($"Frameworks/{UNITY_MESSAGING_NAME}", $"Frameworks/{UNITY_MESSAGING_NAME}");

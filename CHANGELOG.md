@@ -1,8 +1,16 @@
+## [3.4.0] - 2022-11-23
+- Added A/B test functionality (Beta) for Windows and WSA(UWP) platforms.
+- Added functionality that allows you to bring the application into compliance with COPPA(Children’s Online Privacy Protection Act) for IOS and MacOS platforms.
+- Added more methods for working with DTDRemoteConfig that will facilitate integration and testing.
+- Fix dispatching in DTDRemoteConfigListener for android platform.
+- Minor improvements and fixes, stability enhancement.
+
 ## [3.3.2] - 2022-10-21
 - Added an option for assigning a callback to receive a notification when the SDK initialization is complete. (Not available for WebGL platform)
 - In order to improve reliability, the amount of stored and transmitted data about game currencies/resources and user card parameters has been limited for all platforms.
 - Minor improvements and fixes, stability enhancement.
 - Fixed a bug that caused Duplicate class a.a found in modules on Android platform.
+
 ## [3.3.1] - 2022-09-26
 - In order to improve reliability, the amount of stored and transmitted data about game currencies-/resources and user card parameters has been limited on Android platform.
 - Fixed a problem with SessionService on Android platform.
