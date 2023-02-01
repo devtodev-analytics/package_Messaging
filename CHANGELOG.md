@@ -1,3 +1,11 @@
+## [3.5.0] - 2023-01-31 
+- Added functionality that allows you to bring the application into compliance with COPPA (Children's Online Privacy Protection Act) for Android platform.
+- Added more methods for working with DTDRemoteConfig that will facilitate integration and testing.
+- Huawei services support for Android platform.
+- Minor changes in the A/B testing module for Apple and Android platforms.
+- Fixed problems with SQLlite for Apple and Android platforms.
+- Minor improvements and fixes, stability enhancements. 
+
 ## [3.4.0] - 2022-11-23
 - Added A/B test functionality (Beta) for Windows and WSA(UWP) platforms.
 - Added functionality that allows you to bring the application into compliance with COPPA(Children’s Online Privacy Protection Act) for IOS and MacOS platforms.

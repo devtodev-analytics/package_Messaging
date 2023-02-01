@@ -1,10 +1,7 @@
 {
-    "name": "com.devtodev.sdk.messaging",
-    "rootNamespace": "",
+    "name": "com.devtodev.sdk.messaging.Editor",
     "references": [],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
