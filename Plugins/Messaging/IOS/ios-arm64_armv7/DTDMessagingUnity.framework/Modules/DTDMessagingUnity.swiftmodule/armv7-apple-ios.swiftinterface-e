@@ -1,11 +1,12 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target armv7-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DTDMessagingUnity
 @_exported import DTDMessagingUnity
 import Foundation
 import Swift
 import UIKit
 import UserNotifications
+import _Concurrency
 import os.log
 import os
 @_inheritsConvenienceInitializers @objc public class DTDMessaging : ObjectiveC.NSObject {
@@ -31,8 +32,8 @@ import os
   }
   @objc public static func didReceiveMessage(userInfo: [Swift.AnyHashable : Any], actionIdentifier: Swift.String?)
   @objc public static func willPresentMessage(userInfo: [Swift.AnyHashable : Any])
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc public protocol DTDMessagingDelegate {
   @objc optional func didRegisterForRemoteNotifications(with deviceToken: Foundation.Data)
@@ -45,16 +46,16 @@ import os
 @objc open class DTDMediaAttachmentExtension : UserNotifications.UNNotificationServiceExtension {
   @objc override dynamic public func didReceive(_ request: UserNotifications.UNNotificationRequest, withContentHandler contentHandler: @escaping (UserNotifications.UNNotificationContent) -> Swift.Void)
   @objc override dynamic public func serviceExtensionTimeWillExpire()
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @objc public enum DTDActionType : Swift.Int {
   case app = 0
   case url = 1
   case share = 2
   case deeplink = 3
-  public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
@@ -75,9 +76,9 @@ import os
   @available(iOS 13.0, *)
   @objc public static let DTDNotificationOptionAnnouncement: DTDMessagingUnity.DTDNotificationOptions
   @objc required override dynamic public init()
-  public typealias RawValue = Swift.UInt
-  public typealias Element = DTDMessagingUnity.DTDNotificationOptions
   public typealias ArrayLiteralElement = DTDMessagingUnity.DTDNotificationOptions
+  public typealias Element = DTDMessagingUnity.DTDNotificationOptions
+  public typealias RawValue = Swift.UInt
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class DTDMessage : ObjectiveC.NSObject {
@@ -95,7 +96,6 @@ import os
     @objc get
   }
   @objc public func json() -> Foundation.NSDictionary
-  @objc override dynamic public init()
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class DTDActionButton : ObjectiveC.NSObject {
@@ -112,7 +112,6 @@ import os
     @objc get
   }
   @objc public func json() -> Foundation.NSDictionary
-  @objc override dynamic public init()
   @objc deinit
 }
 extension DTDMessagingUnity.DTDActionType : Swift.Equatable {}

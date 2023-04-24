@@ -8,7 +8,7 @@
 
 @interface UnityPushManager : NSObject
 
-@property (nonatomic, strong) NSString * pushListener;
+typedef void (*stringDelegate)(const char *message);
 
 +(UnityPushManager *) pushManager;
 
@@ -17,5 +17,9 @@
 - (void) initPushManager;
 - (const char*) getToken;
 - (void) setPushNotificationOptions: (unsigned int) options;
-
+- (void) setOnRegister: (stringDelegate) onRegistred
+              onFailed: (stringDelegate) onFailed
+           onInvisible: (stringDelegate) onInvisible
+          onForeground: (stringDelegate) onForeground
+          onPushOpened: (stringDelegate) onPushOpened;
 @end

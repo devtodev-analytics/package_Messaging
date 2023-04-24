@@ -5,6 +5,7 @@
 
 #import <UIKit/UIKit.h>
 #import <UserNotifications/UserNotifications.h>
+#import <UnityPushManager.h>
 
 //! Project version number for messaging.
 FOUNDATION_EXPORT double messagingVersionNumber;
@@ -22,7 +23,11 @@ extern "C"{
     void pushIsAllowed(bool state);
     bool getPushState();
     const char* getToken();
+    void setPushListener(stringDelegate onRegistred,
+                         stringDelegate onFailed,
+                         stringDelegate onInvisible,
+                         stringDelegate onForeground,
+                         stringDelegate onPushOpened);
 #ifdef __cplusplus
 }
 #endif
-
