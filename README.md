@@ -1,6 +1,6 @@
 Latest Version
 --------------
-##### _April 24, 2023_ - [v3.6.0](https://github.com/devtodev-analytics/package_Messaging/releases/latest)
+##### _May 5, 2023_ - [v3.6.1](https://github.com/devtodev-analytics/package_Messaging/releases/latest)
 
 Getting Started
 ---------------

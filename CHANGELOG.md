@@ -1,3 +1,7 @@
+## [3.6.1] - 2023-05-5
+- Removed support for bitcode for Apple platforms(deprecated in Xcode 14).
+- Fixed Ab-test logic for Android platform.
+
 ## [3.6.0] - 2023-04-23
 - Fixed SQLiteConstraintException for Android platform.
 - Fixed the logic of opening push notifications from different push campaigns for IOS & Android platforms.
