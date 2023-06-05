@@ -1,3 +1,9 @@
+## [3.6.2] - 2023-06-2
+- Fixed Ab-test logic.
+- Fixed the logic of the AddImpression method.
+- Updated Android dependencies.
+
+
 ## [3.6.1] - 2023-05-5
 - Removed support for bitcode for Apple platforms(deprecated in Xcode 14).
 - Fixed Ab-test logic for Android platform.
