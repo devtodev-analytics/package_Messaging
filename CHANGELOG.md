@@ -1,3 +1,7 @@
+## [3.6.4] - 2023-07-19
+- Implemented devtodevId update mechanism
+- A/B-test module minor fixes.
+- Fixed a bug that occurred when the RemoteConfig module was called before the Analytics module.
 ## [3.6.3] - 2023-06-9
 - Added xCode 14.3 support.
 - Fixed the logic of the CustomEvent method when it was called without parameters.
