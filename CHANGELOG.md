@@ -1,3 +1,6 @@
+## [3.6.5] - 2023-09-25
+- Fixed a session tracking issues for win standalone platform.
+- Fixed a crash occurred in the editor on the macOS platform if the application key was empty
 ## [3.6.4] - 2023-07-19
 - Implemented devtodevId update mechanism
 - A/B-test module minor fixes.

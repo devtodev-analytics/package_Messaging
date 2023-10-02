@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/DTDMessagingUnity.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0F85xOkH8oKmr4N+SGQc9Q7Mqrc=
+		FLmWsTZYES5oMQhniPwVtEW3uK4=
 		</data>
 		<key>Modules/DTDMessagingUnity.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/DTDMessagingUnity.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		e6GzU4DmO5tL68r5jJDChDg/dF8=
+		cwv1/X94XRhZp18BxvEObpV8Oe0=
 		</data>
 		<key>Modules/DTDMessagingUnity.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/DTDMessagingUnity.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8Zibys9jax64oMR79VkzzCBOCkk=
+		s0ibu65sUTOhcbegaXDQyDcNzRQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -137,11 +137,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0F85xOkH8oKmr4N+SGQc9Q7Mqrc=
+			FLmWsTZYES5oMQhniPwVtEW3uK4=
 			</data>
 			<key>hash2</key>
 			<data>
-			pxc6F1Mpesrcq35876cVQflkYJA4Ayl7VnXvBpzdSao=
+			SjpJwQM/ji/LR0dghRRjn8Lm1U0kjaou2vosP/xIvt0=
 			</data>
 		</dict>
 		<key>Modules/DTDMessagingUnity.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -170,11 +170,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			e6GzU4DmO5tL68r5jJDChDg/dF8=
+			cwv1/X94XRhZp18BxvEObpV8Oe0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Wkvu9Erpj+iyLyuBiY61P7s0v3kNj+9JBG6wbmMwgpk=
+			9404kNKOUJoPhnxRUCuaz5NUISEnFBOuSYGtrSUvL9E=
 			</data>
 		</dict>
 		<key>Modules/DTDMessagingUnity.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -203,11 +203,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			8Zibys9jax64oMR79VkzzCBOCkk=
+			s0ibu65sUTOhcbegaXDQyDcNzRQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Tre+H/lqArw9els4oL1J0xTe5QBXo7U0uhqw7M0qHDA=
+			Rh6mo7BiXqBvcsZiPOak7c8NBLEIFyOD2Y1rB0RRcjc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
