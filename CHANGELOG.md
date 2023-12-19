@@ -1,3 +1,8 @@
+## [3.7.0] - 2023-12-19
+- Added DeviceType field to the user card.
+- Fixed problem with Exclude field in Analytics configuration.
+- Added data compression using the Zstd library for Android, MacOS, iOS, Windows standalone platforms.
+- DTDRemoteConfigReceiveResult now has an empty state, meaning that the A/B test configuration was received but the list of experiments is empty.
 ## [3.6.5] - 2023-09-25
 - Fixed a session tracking issues for win standalone platform.
 - Fixed a crash occurred in the editor on the macOS platform if the application key was empty
