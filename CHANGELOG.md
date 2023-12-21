@@ -1,3 +1,5 @@
+## [3.7.1] - 2023-12-21
+- Hotfix for guid conflict.
 ## [3.7.0] - 2023-12-19
 - Added DeviceType field to the user card.
 - Fixed problem with Exclude field in Analytics configuration.
