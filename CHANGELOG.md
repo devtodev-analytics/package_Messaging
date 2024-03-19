@@ -1,3 +1,7 @@
+## [3.8.0] - 2024-03-18
+- Added linux editor support
+- Fixed the OnReceived method in the Ab-test logic
+- Removed methods related to the personal information 
 ## [3.7.1] - 2023-12-21
 - Hotfix for guid conflict.
 ## [3.7.0] - 2023-12-19

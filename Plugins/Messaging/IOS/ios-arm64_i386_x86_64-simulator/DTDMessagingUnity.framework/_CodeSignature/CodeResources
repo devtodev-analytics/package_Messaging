@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WXrQszyb+k48OkbD3AysnTDeggk=
+		w7jPVktZdnXUg4gBGgcpotOywVU=
 		</data>
 		<key>Modules/DTDMessagingUnity.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/DTDMessagingUnity.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Ywh8IrEp9ARBg3onRRG3vcu6b6A=
+		UVZ3A2/yR+c951WMPc2/LNWT5i4=
 		</data>
 		<key>Modules/DTDMessagingUnity.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/DTDMessagingUnity.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oAZbUKlcgMQE2Yu1Hj3sECCR62g=
+		Dxx+QE0EkrtnsmoGOog9ya6WRyU=
 		</data>
 		<key>Modules/DTDMessagingUnity.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/DTDMessagingUnity.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NRhK35OA4MJpY5KDwLoQxdwAOxk=
+		7j+lDkLq05iIV3cfDuKolGVMk/Q=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -137,11 +137,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ywh8IrEp9ARBg3onRRG3vcu6b6A=
+			UVZ3A2/yR+c951WMPc2/LNWT5i4=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZNEjQ1B8NAcJJ+CbpijCRZiEhvoMp2HVhcxDaOHJuo8=
+			JWpFo+2LpE6Cr/yHqPgh4FTGYWsYYSY6vbjH8MOr4IM=
 			</data>
 		</dict>
 		<key>Modules/DTDMessagingUnity.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -170,11 +170,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oAZbUKlcgMQE2Yu1Hj3sECCR62g=
+			Dxx+QE0EkrtnsmoGOog9ya6WRyU=
 			</data>
 			<key>hash2</key>
 			<data>
-			/V5t9ufWXQti660uBGd/V92m+ikrqLdzMCH+pQ4+YMY=
+			584Bg/3ig/jPSind0E/QGV/mk0H/OZwAk8lO6MtAiKo=
 			</data>
 		</dict>
 		<key>Modules/DTDMessagingUnity.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -203,11 +203,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NRhK35OA4MJpY5KDwLoQxdwAOxk=
+			7j+lDkLq05iIV3cfDuKolGVMk/Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			DGYzJZYUO3PdrRsZR/Dnnz7r4Xvehp/sft25G8+Yfj4=
+			9FES5PR4IreW3k1/IfjCQD+YzhpV7Le5MiEkUKOAlRE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
