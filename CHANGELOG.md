@@ -1,3 +1,9 @@
+## [3.8.2] - 2024-05-08
+- Added SDK’s Privacy Manifest for iOS
+- Added XCFramework Signature for iOS
+- Removed support for the armv7 architecture for iOS
+- Fixed an issue where xcode was finding already deleted methods related to personal information
+- Updated Android dependencies
 ## [3.8.0] - 2024-03-18
 - Added linux editor support
 - Fixed the OnReceived method in the Ab-test logic
