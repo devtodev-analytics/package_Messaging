@@ -1,9 +1,12 @@
+## [3.8.3] - 2024-05-16
+- Fixed an error occurring during validation in app store
+- Privacy Manifest moved to Plugins folder for correct merging by unity tools
+- Fixed post process behavior for newer versions of Unity
 ## [3.8.2] - 2024-05-08
 - Added SDK’s Privacy Manifest for iOS
 - Added XCFramework Signature for iOS
 - Removed support for the armv7 architecture for iOS
 - Fixed an issue where xcode was finding already deleted methods related to personal information
-- Updated Android dependencies
 ## [3.8.0] - 2024-03-18
 - Added linux editor support
 - Fixed the OnReceived method in the Ab-test logic
