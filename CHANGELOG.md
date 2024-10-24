@@ -1,3 +1,6 @@
+## [3.8.4] - 2024-10-24
+- Fixed http client for WSA(UWP) platform
+- Fixed dependencies for android platform
 ## [3.8.3] - 2024-05-16
 - Fixed an error occurring during validation in app store
 - Privacy Manifest moved to Plugins folder for correct merging by unity tools
