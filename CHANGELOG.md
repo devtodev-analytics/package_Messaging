@@ -1,3 +1,9 @@
+## [3.9.0] - 2025-02-04
+
+- Implemented automatic payment tracking system for Android and iOS platforms
+- Fixed dependency configuration issues for the WSA platform
+- Fixed WebGL build failure on the Linux platform
+
 ## [3.8.5] - 2025-02-04
 
 - Added A/B test functionality for WebGL platform
