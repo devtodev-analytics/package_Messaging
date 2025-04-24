@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/DTDMessagingUnity.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		nPaF2ixeMUUMKl6pPex7ukhISTY=
+		eLN0faNPNWSHG8a3pxeiM9qYTM8=
 		</data>
 		<key>Modules/DTDMessagingUnity.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/DTDMessagingUnity.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		eygBbIRhjZNDKilQVDaQ1J45mNE=
+		C9uqNkfIa3UVXUVinNft8UEXP/A=
 		</data>
 		<key>Modules/DTDMessagingUnity.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		nPaF2ixeMUUMKl6pPex7ukhISTY=
+		eLN0faNPNWSHG8a3pxeiM9qYTM8=
 		</data>
 		<key>Modules/DTDMessagingUnity.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/DTDMessagingUnity.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/rQt2Vf+PgFpId+h5D74TQLAN5M=
+		FCpbYsKzOewZQSDx4+95XB76IZg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -123,11 +123,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nPaF2ixeMUUMKl6pPex7ukhISTY=
+			eLN0faNPNWSHG8a3pxeiM9qYTM8=
 			</data>
 			<key>hash2</key>
 			<data>
-			tFuv0ADI9tUe9kadL42FAoMt7JoeLx0TD3RnONjUuOk=
+			lOqBo82h61Za0lPLfMlYiIPkTvxd9wkD2gxn0JxXjhM=
 			</data>
 		</dict>
 		<key>Modules/DTDMessagingUnity.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -167,22 +167,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eygBbIRhjZNDKilQVDaQ1J45mNE=
+			C9uqNkfIa3UVXUVinNft8UEXP/A=
 			</data>
 			<key>hash2</key>
 			<data>
-			/PN+TB/Bw6jSDlnKDgd7UaB0j9iXcmSkVjRn+WqyZRI=
+			V4NJX5M4hFmCXP8TnIP4pSMoTsS6w+0ccdpRtM7EtLY=
 			</data>
 		</dict>
 		<key>Modules/DTDMessagingUnity.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nPaF2ixeMUUMKl6pPex7ukhISTY=
+			eLN0faNPNWSHG8a3pxeiM9qYTM8=
 			</data>
 			<key>hash2</key>
 			<data>
-			tFuv0ADI9tUe9kadL42FAoMt7JoeLx0TD3RnONjUuOk=
+			lOqBo82h61Za0lPLfMlYiIPkTvxd9wkD2gxn0JxXjhM=
 			</data>
 		</dict>
 		<key>Modules/DTDMessagingUnity.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -222,11 +222,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/rQt2Vf+PgFpId+h5D74TQLAN5M=
+			FCpbYsKzOewZQSDx4+95XB76IZg=
 			</data>
 			<key>hash2</key>
 			<data>
-			IhWF5xx/v6NaWspIm3CL1d8GXnaxjASLsFTi0dKcPGE=
+			AQ83u6s+K1fxlxCOTiVCDlB9LVTckGSG5jzqqxovqRM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

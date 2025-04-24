@@ -1,3 +1,11 @@
+## [3.9.1] - 2025-23-04
+
+- Fixed SetCheater the method for the iOS platform
+- Fixed missing amsdef files
+- Improved compatibility with other plugins
+- Added the SetInitializationCompleteCallback method for WebGL platform
+- Changed the way COPPA is enabled for the iOS platform
+
 ## [3.9.0] - 2025-02-04
 
 - Implemented automatic payment tracking system for Android and iOS platforms
