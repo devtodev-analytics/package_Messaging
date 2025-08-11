@@ -1,9 +1,15 @@
-## [3.9.1] - 2025-23-04
+## [3.9.2] - 2025-08-11
 
-- Fixed SetCheater the method for the iOS platform
+- Added support for 16 KB page sizes for the Android platform
+- Fixed "Referral not connected" exception for the Android platform
+- Fixed AntiCheat verification for the Android platform
+
+## [3.9.1] - 2025-04-23
+
+- Fixed SetCheater method for the iOS platform
 - Fixed missing amsdef files
 - Improved compatibility with other plugins
-- Added the SetInitializationCompleteCallback method for WebGL platform
+- Added SetInitializationCompleteCallback method for WebGL platform
 - Changed the way COPPA is enabled for the iOS platform
 
 ## [3.9.0] - 2025-02-04
