@@ -1,4 +1,27 @@
-## [3.9.2] - 2025-08-11
+## [3.10.2] - 2026-02-11
+
+- Added logic to prevent the Unity Editor from adding .meta files to the xcframework
+- Fixed an undefined symbol error for macOS & iOS platforms
+- Fixed initialization logic without Remote configs
+
+## [3.10.1] - 2026-01-20
+
+- Hotfix: Fixed Subscriptions module for IAPv5
+
+## [3.10.0] - 2026-01-14
+
+- Added Remote configs for Android, IOS and WebGL platforms
+
+## [3.9.4] - 2026-01-08
+
+- Subscriptions module: added support for Unity IAP v5.1
+
+## [3.9.3] - 2025-10-07
+
+- Added support for billing v8.0.0 for Android platform
+- Fixed AntiCheat verification for the Android platform
+
+## [3.9.2] - 2025-08-08
 
 - Added support for 16 KB page sizes for the Android platform
 - Fixed "Referral not connected" exception for the Android platform
