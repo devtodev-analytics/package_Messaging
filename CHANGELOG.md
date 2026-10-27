@@ -1,3 +1,27 @@
+## [3.11.4] - 2026-10-22
+- Fixed an issue where a userId containing / character would break config storage.
+- Fixed a bug on WebGL platform when VirtualCurrencyPayment method did not send currency code
+- Fixed a crash on iOS, macOS and Android that could occur when the app was terminating: native SDK callbacks are no longer dispatched to Unity from background threads, and the main-thread dispatcher no longer calls Unity APIs (FindObjectsOfType) during teardown.
+
+## [3.11.3] - 2026-07-10
+- Fixed a bug causing non-ASCII characters to be unsupported on WebGL platforms.
+
+## [3.11.2] - 2026-06-12
+- Fixed a bug that caused the onChanged callback to function incorrectly.
+
+## [3.11.1] - 2026-06-03
+
+- Fixed an A/B testing issue that prevented switching groups on a test device.
+- Fixed an issue where, in rare cases, the onChanged callback was not triggered.
+
+## [3.11.0] - 2026-05-08
+
+- Added cross platform projects support for all platform
+- Added the ability to use the developer's own proxy servers (FallbackProxyUrls) to bypass regional restrictions and ad-blocking systems.
+- Added a limit on the amount of data the SDK can store when sending is not possible.
+- Remote configs: fixed invalidateActiveConfig method behavior.
+- Minor fixes and improvements.
+
 ## [3.10.2] - 2026-02-11
 
 - Added logic to prevent the Unity Editor from adding .meta files to the xcframework
