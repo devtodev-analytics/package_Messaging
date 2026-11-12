@@ -1,7 +1,16 @@
+## [3.11.6] - 2026-11-12
+Remote configs:
+- Fix for device disk overflow error
+
+## [3.11.5] - 2026-11-05
+Remote configs:
+- Fix for device disk overflow error
+
 ## [3.11.4] - 2026-10-22
 - Fixed an issue where a userId containing / character would break config storage.
 - Fixed a bug on WebGL platform when VirtualCurrencyPayment method did not send currency code
 - Fixed a crash on iOS, macOS and Android that could occur when the app was terminating: native SDK callbacks are no longer dispatched to Unity from background threads, and the main-thread dispatcher no longer calls Unity APIs (FindObjectsOfType) during teardown.
+- Android: the native SDK is now compiled against Android API 37, so the project must use a newer Android Gradle Plugin and Gradle (tested with Android Gradle Plugin 8.13.0, Gradle 8.13 and JDK 17, compileSdk 37). Unity 2022.3 projects need custom Gradle and base/launcher Gradle templates for this. The minimum supported Android API level is 24 (Android 7.0).
 
 ## [3.11.3] - 2026-07-10
 - Fixed a bug causing non-ASCII characters to be unsupported on WebGL platforms.

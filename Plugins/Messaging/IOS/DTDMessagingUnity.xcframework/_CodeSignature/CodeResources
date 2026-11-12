@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/DTDMessagingUnity.framework/DTDMessagingUnity</key>
 		<data>
-		VTcLOCKk1kWdEv66Em8uVc5hk7A=
+		dVzhlVqKv0cGNfj4PBYYmBqL05c=
 		</data>
 		<key>ios-arm64/DTDMessagingUnity.framework/Headers/DTDEventsRouter.h</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>ios-arm64/DTDMessagingUnity.framework/Modules/DTDMessagingUnity.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		mVebVwgWVEGkoRZ96CP/CY5phmU=
+		fmTdg3Rkz55hjJ1wCc4Qw4J4sN0=
 		</data>
 		<key>ios-arm64/DTDMessagingUnity.framework/Modules/DTDMessagingUnity.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/DTDMessagingUnity.framework/DTDMessagingUnity</key>
 		<data>
-		YjDHHPIUkgxDuBHQKYa4FlDb7xY=
+		szoKZKQaJTSTFyp0JBqPIhag21M=
 		</data>
 		<key>ios-arm64_x86_64-simulator/DTDMessagingUnity.framework/Headers/DTDEventsRouter.h</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/DTDMessagingUnity.framework/Modules/DTDMessagingUnity.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		mVebVwgWVEGkoRZ96CP/CY5phmU=
+		fmTdg3Rkz55hjJ1wCc4Qw4J4sN0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/DTDMessagingUnity.framework/Modules/DTDMessagingUnity.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/DTDMessagingUnity.framework/Modules/DTDMessagingUnity.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		mVebVwgWVEGkoRZ96CP/CY5phmU=
+		fmTdg3Rkz55hjJ1wCc4Qw4J4sN0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/DTDMessagingUnity.framework/Modules/DTDMessagingUnity.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -142,7 +142,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/DTDMessagingUnity.framework/_CodeSignature/CodeDirectory</key>
 		<data>
-		pCFLNy5ShdjRjxlHpNIgaLE2/RY=
+		XgysazTc8pJnfkHsO+b/X3fkaf4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/DTDMessagingUnity.framework/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -150,11 +150,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/DTDMessagingUnity.framework/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		0QUGDBXFPY0uRKZDYJL34OTFwlQ=
+		LScAU7+9c9YAV3Dm/4Mq1d0iw7w=
 		</data>
 		<key>ios-arm64_x86_64-simulator/DTDMessagingUnity.framework/_CodeSignature/CodeResources</key>
 		<data>
-		51W6E009qugFjz0RtIYt7SMwXYM=
+		zSzwSIXHTr8122JSYgZxZattC08=
 		</data>
 		<key>ios-arm64_x86_64-simulator/DTDMessagingUnity.framework/_CodeSignature/CodeSignature</key>
 		<data>
@@ -167,11 +167,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VTcLOCKk1kWdEv66Em8uVc5hk7A=
+			dVzhlVqKv0cGNfj4PBYYmBqL05c=
 			</data>
 			<key>hash2</key>
 			<data>
-			AkbswO4mu52C31sIuowKjZAYCqeQL0ZvT3E6gUVZifA=
+			MIIn2wPP7w71cpDz8ft3mZlip21L37mn7uNjDchc400=
 			</data>
 		</dict>
 		<key>ios-arm64/DTDMessagingUnity.framework/Headers/DTDEventsRouter.h</key>
@@ -233,11 +233,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mVebVwgWVEGkoRZ96CP/CY5phmU=
+			fmTdg3Rkz55hjJ1wCc4Qw4J4sN0=
 			</data>
 			<key>hash2</key>
 			<data>
-			1Fuso2/kxiAQn8AMQ5xskLouDLlmu/+S5bczv2J2suQ=
+			QWRCCRcOWT2x077EnA8m/9dNJnbG9Yp6puEt29deEQU=
 			</data>
 		</dict>
 		<key>ios-arm64/DTDMessagingUnity.framework/Modules/DTDMessagingUnity.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -321,11 +321,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YjDHHPIUkgxDuBHQKYa4FlDb7xY=
+			szoKZKQaJTSTFyp0JBqPIhag21M=
 			</data>
 			<key>hash2</key>
 			<data>
-			yTrAilHdUiyUOdj48cR5Vi8S3oxOBzENQqWbi/qPpFQ=
+			YORU92KNQYx06yum5JRXxTAq1mN4D7Q7OfcEWms//Ck=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/DTDMessagingUnity.framework/Headers/DTDEventsRouter.h</key>
@@ -387,11 +387,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mVebVwgWVEGkoRZ96CP/CY5phmU=
+			fmTdg3Rkz55hjJ1wCc4Qw4J4sN0=
 			</data>
 			<key>hash2</key>
 			<data>
-			1Fuso2/kxiAQn8AMQ5xskLouDLlmu/+S5bczv2J2suQ=
+			QWRCCRcOWT2x077EnA8m/9dNJnbG9Yp6puEt29deEQU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/DTDMessagingUnity.framework/Modules/DTDMessagingUnity.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -453,11 +453,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mVebVwgWVEGkoRZ96CP/CY5phmU=
+			fmTdg3Rkz55hjJ1wCc4Qw4J4sN0=
 			</data>
 			<key>hash2</key>
 			<data>
-			1Fuso2/kxiAQn8AMQ5xskLouDLlmu/+S5bczv2J2suQ=
+			QWRCCRcOWT2x077EnA8m/9dNJnbG9Yp6puEt29deEQU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/DTDMessagingUnity.framework/Modules/DTDMessagingUnity.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -541,11 +541,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pCFLNy5ShdjRjxlHpNIgaLE2/RY=
+			XgysazTc8pJnfkHsO+b/X3fkaf4=
 			</data>
 			<key>hash2</key>
 			<data>
-			all/FKUxVc+lHcDQXUBIc+kMzjr8uwJ0QvpkuMDMPqc=
+			3sQ7PJpcI6j4uamxaVc6rGhFI77b2X3ePh1GIi4xWTU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/DTDMessagingUnity.framework/_CodeSignature/CodeRequirements</key>
@@ -563,22 +563,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0QUGDBXFPY0uRKZDYJL34OTFwlQ=
+			LScAU7+9c9YAV3Dm/4Mq1d0iw7w=
 			</data>
 			<key>hash2</key>
 			<data>
-			BxP3xkGAa42C0fHx96JAqVaxPWQRQ/zvMN+M2Z6dRkU=
+			eEflZPpQsruWd/cXzjdwLU/2yxXqLikL//ydut+9VOw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/DTDMessagingUnity.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			51W6E009qugFjz0RtIYt7SMwXYM=
+			zSzwSIXHTr8122JSYgZxZattC08=
 			</data>
 			<key>hash2</key>
 			<data>
-			bA4PNruwc1bTVE0NU7H2cMjLjtdhX3yQ8CJrDIvcHH0=
+			utNK60Z7Tx9hniaYvHe7w1LPGRjw38wWojNBOf6BUag=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/DTDMessagingUnity.framework/_CodeSignature/CodeSignature</key>
